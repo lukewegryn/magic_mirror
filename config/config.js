@@ -6,23 +6,19 @@
 
 var config = {
 	port: 8080,
-	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"],
+	ipWhitelist: ["127.0.0.1","::ffff:127.0.0.1", "::1","::ffff:192.168.0.105"],
 	zoom: 1.4,
 	language: 'en',
 	timeFormat: 12,
 	units: 'imperial',
 
 	modules: [
-		{
-    			module: 'DailyXKCD',
-    			position: 'middle_center',
-    			config: {
-        			invertColors: true,
-        			title: false,
-        			altText: false
-    			},
-			disabled: true,
- 		},
+		    {
+			module: 'MMM-Remote-Control'
+			// uncomment the following line to show the URL of the remote control on the mirror
+			// , position: 'bottom_left'
+			// you can hide this module afterwards from the remote control itself
+    		},
 		{
         		module: 'MMM-DailyBibleVerse',
         		position: 'bottom_bar', // This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
