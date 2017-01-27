@@ -11,7 +11,7 @@ Module.register("helloworld",{
 
 	// Default module config.
 	defaults: {
-		text: "Hello World!"
+		text: "What's up?!"
 	},
 
 	// Override dom generator.
