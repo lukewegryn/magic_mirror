@@ -417,3 +417,940 @@ Connected to AWS IoT
 Subscribed: MagicMirror:new-text
 Subscribed: MagicMirror:new-images
 Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Whoops! There was an uncaught exception...
+{ Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at Server._listen2 (net.js:1253:14)
+    at listen (net.js:1289:10)
+    at net.js:1399:9
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at Module.runMain (module.js:592:11)
+    at run (bootstrap_node.js:402:7)
+    at startup (bootstrap_node.js:157:9)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+MagicMirror will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?
+If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Use existing news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+Initializing new module helper ...
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: updatenotification
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+Whoops! There was an uncaught exception...
+{ Error: getaddrinfo EAI_AGAIN www.nytimes.com:80
+    at Object.exports._errnoException (util.js:1026:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'EAI_AGAIN',
+  errno: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'www.nytimes.com',
+  host: 'www.nytimes.com',
+  port: 80 }
+MagicMirror will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?
+If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues
+Whoops! There was an uncaught exception...
+{ Error: getaddrinfo EAI_AGAIN az4shczu1l2a1.iot.us-east-1.amazonaws.com:8883
+    at Object.exports._errnoException (util.js:1026:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'EAI_AGAIN',
+  errno: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'az4shczu1l2a1.iot.us-east-1.amazonaws.com',
+  host: 'az4shczu1l2a1.iot.us-east-1.amazonaws.com',
+  port: 8883 }
+MagicMirror will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?
+If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues
+Whoops! There was an uncaught exception...
+{ Error: getaddrinfo EAI_AGAIN az4shczu1l2a1.iot.us-east-1.amazonaws.com:8883
+    at Object.exports._errnoException (util.js:1026:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'EAI_AGAIN',
+  errno: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'az4shczu1l2a1.iot.us-east-1.amazonaws.com',
+  host: 'az4shczu1l2a1.iot.us-east-1.amazonaws.com',
+  port: 8883 }
+MagicMirror will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?
+If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+WARNING! Could not validate config file. Please correct syntax errors. Starting with default configuration.
+Loading module helpers ...
+Initializing new module helper ...
+App threw an error during load
+SyntaxError: /home/pi/MagicMirror/modules/MMM-MirrorMirrorOnTheWall/ModuleNames.json: Unexpected token } in JSON at position 375
+    at Object.Module._extensions..json (module.js:573:27)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+    at Function.Module._load (module.js:424:3)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/pi/MagicMirror/modules/MMM-MirrorMirrorOnTheWall/node_helper.js:4:21)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+Whoops! There was an uncaught exception...
+SyntaxError: /home/pi/MagicMirror/modules/MMM-MirrorMirrorOnTheWall/ModuleNames.json: Unexpected token } in JSON at position 375
+    at Object.Module._extensions..json (module.js:573:27)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+    at Function.Module._load (module.js:424:3)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/pi/MagicMirror/modules/MMM-MirrorMirrorOnTheWall/node_helper.js:4:21)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+MagicMirror will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?
+If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues
+Launching application.
+Terminated
+
+npm ERR! Linux 4.4.34-v7+
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v6.9.4
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! magicmirror@2.1.0 start: `electron js/electron.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the magicmirror@2.1.0 start script 'electron js/electron.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the magicmirror package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     electron js/electron.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs magicmirror
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls magicmirror
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/pi/MagicMirror/npm-debug.log
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+WARNING! Could not validate config file. Please correct syntax errors. Starting with default configuration.
+Loading module helpers ...
+Initializing new module helper ...
+App threw an error during load
+SyntaxError: /home/pi/MagicMirror/modules/MMM-MirrorMirrorOnTheWall/ModuleNames.json: Unexpected token } in JSON at position 375
+    at Object.Module._extensions..json (module.js:573:27)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+    at Function.Module._load (module.js:424:3)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/pi/MagicMirror/modules/MMM-MirrorMirrorOnTheWall/node_helper.js:4:21)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+Whoops! There was an uncaught exception...
+SyntaxError: /home/pi/MagicMirror/modules/MMM-MirrorMirrorOnTheWall/ModuleNames.json: Unexpected token } in JSON at position 375
+    at Object.Module._extensions..json (module.js:573:27)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+    at Function.Module._load (module.js:424:3)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/pi/MagicMirror/modules/MMM-MirrorMirrorOnTheWall/node_helper.js:4:21)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+MagicMirror will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?
+If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues
+Launching application.
+[21967:0127/160650:FATAL:bus.cc(1204)] D-Bus connection was disconnected. Aborting.
+#0 0x0000012a3bb0 <unknown>
+#1 0x0000012b4406 <unknown>
+#2 0x00000120fd0a <unknown>
+
+[22117:0127/160650:FATAL:bus.cc(1204)] D-Bus connection was disconnected. Aborting.
+#0 0x0000012a3bb0 <unknown>
+#1 0x0000012b4406 <unknown>
+#2 0x00000120fd0a <unknown>
+
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+{"votd":{"text":"&ldquo;For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places.  Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.&rdquo;","content":"For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places. Therefore take the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand.","display_ref":"Ephesians 6:12-13","reference":"Ephesians 6:12-13","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Ephesians%206:12-13","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"27","month":"01","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module

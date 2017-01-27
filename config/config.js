@@ -7,12 +7,29 @@
 var config = {
 	port: 8080,
 	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"],
-
+	zoom: 1.4,
 	language: 'en',
 	timeFormat: 12,
 	units: 'imperial',
 
 	modules: [
+		{
+    			module: 'DailyXKCD',
+    			position: 'middle_center',
+    			config: {
+        			invertColors: true,
+        			title: false,
+        			altText: false
+    			},
+			disabled: true,
+ 		},
+		{
+        		module: 'MMM-DailyBibleVerse',
+        		position: 'bottom_bar', // This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
+        		config: {
+            			version: 'RSVCE' // This can be changed to any version you want that is offered by Bible Gateway. For a list, go here: https://www.biblegateway.com/usage/linking/versionslist/
+        			}
+    		},
 		{
     			module: 'MMM-MirrorMirrorOnTheWall',
     			position: "middle_center",
@@ -23,7 +40,8 @@ var config = {
 		},
 		{
 			module: "updatenotification",
-			position: "top_bar"
+			position: "top_bar",
+			disabled: "true",
 		},
 		{
 			module: 'clock',
@@ -38,13 +56,13 @@ var config = {
 					{
 						symbol: 'calendar-check-o ',
 						url: 'webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics'
-					}
+					},
+					{
+						symbol: 'hashtag',
+						url: 'webcal://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI'
+					},
 				]
 			}
-		},
-		{
-			module: 'compliments',
-			position: 'lower_third'
 		},
 		{
 			module: 'currentweather',
