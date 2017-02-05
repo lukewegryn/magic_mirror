@@ -11,23 +11,27 @@ var request = require('request');
 module.exports = NodeHelper.create({
 	// Subclass start method.
 	start: function() {
-		console.log("Started node_helper.js for MMM-DailyBibleVerse.");
+		console.log("Started node_helper.js for MMM-DriveTime.");
 	},
 
 	socketNotificationReceived: function(notification, payload) {
 		console.log(this.name + " node helper received a socket notification: " + notification + " - Payload: " + payload);
-		this.bibleGatewayRequest(payload);
+		var infoArray = payload.split("\n");
+		var home = infoArray[0];
+		var destination = infoArray[1];
+		var apikey = infoArray[2];
+		this.destinationRequest(home,destination,apikey);
 	},
 
-	bibleGatewayRequest: function(version) {
+	destinationRequest: function(home,desination,apikey) {
 		var self = this;
-		var bibleGatewayURL = "https://www.biblegateway.com/votd/get/?format=json&version=" + version
+		var googleMapsApiURL = "https://maps.googleapis.com/maps/api/distancematrix/json?origins="+escape(home)+"&destinations="+ escape(desination)+ "&language=en-US&key=" + apikey;
 
-		request({ url: bibleGatewayURL, method: 'GET' }, function(error, response, body) {			
+		request({ url: googleMapsApiURL, method: 'GET' }, function(error, response, body) {			
 			if(!error && response.statusCode == 200){
 				console.log(body);
 				var result = JSON.parse(body);
-				self.sendSocketNotification('BIBLE_GATEWAY_RESULT', result);
+				self.sendSocketNotification('DESTINATION_RESULT', result);
 			}
 		});	
 	}
