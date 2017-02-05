@@ -1354,3 +1354,108 @@ Connected to AWS IoT
 Subscribed: MagicMirror:new-text
 Subscribed: MagicMirror:new-images
 Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-Remote-Control
+Starting node helper for: MMM-Remote-Control
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;But, as it is written, &#8220;What no eye has seen, nor ear heard, nor the heart of man conceived, what God has prepared for those who love him,&#8221;&rdquo;","content":"But, as it is written, &#8220;What no eye has seen, nor ear heard, nor the heart of man conceived, what God has prepared for those who love him,&#8221;","display_ref":"1 Corinthians 2:9","reference":"1 Corinthians 2:9","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=1%20Corinthians%202:9","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"02","month":"02","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+
+> magicmirror@2.1.0 start /home/pi/MagicMirror
+> electron js/electron.js
+
+Starting MagicMirror: v2.1.0
+Loading config ...
+Loading module helpers ...
+Initializing new module helper ...
+Initializing new module helper ...
+Initializing new module helper ...
+No helper found for module: alert.
+No helper found for module: clock.
+Initializing new module helper ...
+No helper found for module: currentweather.
+No helper found for module: weatherforecast.
+Initializing new module helper ...
+All module helpers loaded.
+Starting server op port 8080 ... 
+Server started ...
+Connecting socket for: MMM-Remote-Control
+Starting node helper for: MMM-Remote-Control
+Connecting socket for: MMM-DailyBibleVerse
+Started node_helper.js for MMM-DailyBibleVerse.
+Connecting socket for: MMM-MirrorMirrorOnTheWall
+Staring module helper: MMM-MirrorMirrorOnTheWall
+Connecting socket for: calendar
+Starting node helper for: calendar
+Connecting socket for: newsfeed
+Starting module: newsfeed
+Sockets connected & modules started ...
+Launching application.
+MMM-DailyBibleVerse node helper received a socket notification: START - Payload: RSVCE
+Attempt to connect to AWS 
+Create new calendar fetcher for url: http://www.calendarlabs.com/templates/ical/US-Holidays.ics - Interval: 300000
+Create new calendar fetcher for url: http://p46-calendars.icloud.com/published/2/PHoFo5WZ1BBeVBPvF6r3OiHPMFLcBcMB5bKr7IoXt-BuVoaRCMyvUnrRPy-1vIQnDj-D2xYJ0NrXbRV1xzKJvBpvixgkGSIPGmuta3loTyI - Interval: 300000
+Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+{"votd":{"text":"&ldquo;But I will sing of thy might; I will sing aloud of thy steadfast love in the morning. For thou hast been to me a fortress and a refuge in the day of my distress.&rdquo;","content":"But I will sing of thy might; I will sing aloud of thy steadfast love in the morning. For thou hast been to me a fortress and a refuge in the day of my distress.","display_ref":"Psalm 59:16","reference":"Psalm 59:16","permalink":"https:\/\/www.biblegateway.com\/passage\/?version=RSVCE&amp;search=Psalm%2059:16","copyright":"1965, 1966 ","copyrightlink":"https:\/\/www.biblegateway.com\/versions\/index.php?action=getVersionInfo&amp;vid=215&amp;lang=2","audiolink":"","day":"03","month":"02","year":"2017","version":"Revised Standard Version Catholic Edition","version_id":"RSVCE"}}
+Connected to AWS IoT
+Subscribed: MagicMirror:new-text
+Subscribed: MagicMirror:new-images
+Subscribed: MagicMirror:change-module
+UPDATE MMM-Remote-Control
+path: /home/pi/MagicMirror/modules/MMM-Remote-Control/../MMM-Remote-Control name: Remote Control
+[PM2] Spawning PM2 daemon with pm2_home=/home/pi/.pm2
+[PM2] PM2 Successfully daemonized
+Use --update-env to update environment variables
+┌──────────┬────┬──────┬─────┬────────┬─────────┬────────┬─────┬─────┬──────────┐
+│ App name │ id │ mode │ pid │ status │ restart │ uptime │ cpu │ mem │ watching │
+└──────────┴────┴──────┴─────┴────────┴─────────┴────────┴─────┴─────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+[PM2][ERROR] Process mm not found
+
+{ Error: Command failed: pm2 restart mm
+[PM2][ERROR] Process mm not found
+
+    at ChildProcess.exithandler (child_process.js:218:12)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:877:16)
+    at Socket.<anonymous> (internal/child_process.js:334:11)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at Pipe._handle.close [as _onclose] (net.js:493:12) killed: false, code: 1, signal: null, cmd: 'pm2 restart mm' }
