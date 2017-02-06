@@ -29,9 +29,9 @@ module.exports = NodeHelper.create({
 
 		request({ url: googleMapsApiURL, method: 'GET' }, function(error, response, body) {			
 			if(!error && response.statusCode == 200){
-				console.log(body);
 				var result = JSON.parse(body);
-				self.sendSocketNotification('DESTINATION_RESULT', result);
+				self.sendSocketNotification("DRIVE_TIME_DESTINATION_RESULT", result);
+				console.log("sent Drive TimeSocket Notification");
 			}
 		});	
 	}

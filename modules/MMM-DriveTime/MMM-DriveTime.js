@@ -20,20 +20,20 @@ Module.register("MMM-DriveTime",{
 		var payload = home + "\n" + destination + "\n" + apiKey;
 
 		//Do this once first
-		self.sendSocketNotification('START', payload);
+		self.sendSocketNotification('BEGIN', payload);
 		
-		//Then every hour
+		//Then every 5 minutes
 		setInterval(function() {
-		        self.sendSocketNotification('START', payload);
-    		}, 10000); //perform every 10 seconds (10,000 milliseconds)
+		        self.sendSocketNotification('BEGIN', payload);
+    		}, 300000); //perform every 5 min (10,000 milliseconds)
 	},
 	
 	// Override dom generator.
 	getDom: function() {
-		Log.log("Updating MMM-DriveTime DOM.");
+		console.log("Updating MMM-DriveTime DOM.");
 		
-		var destination = "";
-		var driveTime = "";
+		var destination = "Cisco";
+		var driveTime = "10 minutes";
 
 		if(this.driveTime !== null && this.destination !== null){
 			driveTime = this.driveTime;
@@ -41,24 +41,25 @@ Module.register("MMM-DriveTime",{
 		}
 
 		var wrapper = document.createElement("div");
-		wrapper.className = "bright small";
-		wrapper.innerHTML = desination + ": " + driveTime;
+		wrapper.className = "bright";
+		wrapper.innerHTML = destination + ": " + driveTime;
 		return wrapper;
     	},
-
-	getScripts: function() {
-	    return [];
-	        //this.file('jquery-3.1.1.min.js'), // this file will be loaded straight from the module folder.
+ 	getScripts: function() {
+		return [
+			this.file('jquery-3.1.1.min.js'), // this file will be loade    d straight from the module folder.
+ 		];
 	},
-
 	socketNotificationReceived: function(notification, payload) {
-		Log.log("socket received from Node Helper");
-		if(notification == "DESTINATION"){
+		console.log("MMM-Drive socket received from Node Helper");
+		if(notification === "DRIVE_TIME_DESTINATION_RESULT"){
 			var json = payload;
-			Log.log(payload);
-			this.driveTime = json.rows.elements.duration.text;
-			this.destination = json.destination_addresses;
-
+			console.log(payload);
+			//console.log(json.rows[0].elements[0].duration_in_traffic.text);
+			//this.driveTime = json.rows.elements.duration.text;
+			//this.destination = json.destination_addresses;
+			this.driveTime = "Drive Time";
+			this.destination = "Destination";
 			this.updateDom();
 		}
 	}
