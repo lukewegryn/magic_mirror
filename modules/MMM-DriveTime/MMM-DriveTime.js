@@ -35,13 +35,6 @@ Module.register("MMM-DriveTime",{
 		var wrapper = document.createElement("div");
 		wrapper.className = "bright small";
 		if(this.json !==null){	
-			/*wrapper.innerHTML = "<div class='dimmed'>Drive Times<div>";
-			wrapper.innerHTML += "<hr class='dimmed'>"
-			for (var i=0; i < this.json.length; i++){
-				wrapper.innerHTML += this.json[i].name + " - "
-				wrapper.innerHTML += this.json[i].rows[0].elements[0].duration.text + "</br>"
-			}*/
-
 			var title = document.createElement("span");
 			title.className = "xsmall dimmed"
 			title.innerHTML = "DRIVE TIME";
@@ -70,7 +63,7 @@ Module.register("MMM-DriveTime",{
 				timeWrapper.className = "bright small";
 				
 				var time = document.createElement("span");
-				time.innerHTML = this.json[i].rows[0].elements[0].duration.text;
+				time.innerHTML = this.json[i].rows[0].elements[0].duration_in_traffic.text;
 				
 				timeWrapper.appendChild(time);
 
@@ -96,11 +89,6 @@ Module.register("MMM-DriveTime",{
 		if(notification === "DRIVE_TIME_DESTINATION_RESULT"){
 			console.log("Payload back in MMM-DriveTime:");
 			console.log(payload);
-			//console.log(json.rows[0].elements[0].duration_in_traffic.text);
-			//this.driveTime = json.rows["0"].elements["0"].duration.text;
-			//console.log(this.driveTime);
-			//this.destination = json.destination_addresses["0"].split(",")[0];
-			//console.log(this.destination);
 			this.json = payload;
 			this.updateDom();
 		}
