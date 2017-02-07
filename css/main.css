@@ -27,6 +27,7 @@ body {
 
 .dimmed {
   color: #666;
+  border-color: #666;
 }
 
 .normal {

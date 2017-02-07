@@ -19,13 +19,13 @@ var config = {
 			// , position: 'bottom_left'
 			// you can hide this module afterwards from the remote control itself
     		},
-		{
-        		module: 'MMM-DailyBibleVerse',
-        		position: 'bottom_bar', // This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
-        		config: {
-            			version: 'RSVCE' // This can be changed to any version you want that is offered by Bible Gateway. For a list, go here: https://www.biblegateway.com/usage/linking/versionslist/
-        			}
-    		},
+//		{
+//      		module: 'MMM-DailyBibleVerse',
+//    		position: 'bottom_bar', // This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
+//        		config: {
+//            			version: 'RSVCE' // This can be changed to any version you want that is offered by Bible Gateway. For a list, go here: https://www.biblegateway.com/usage/linking/versionslist/
+//        			}
+//   		},
 		{
     			module: 'MMM-MirrorMirrorOnTheWall',
     			position: "middle_center",
@@ -95,7 +95,7 @@ var config = {
 		},
 		{
 			module: 'MMM-DriveTime',
-			position: 'middle_center',
+			position: 'top_right',
 		},
 	]
 
