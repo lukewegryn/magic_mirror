@@ -7,6 +7,7 @@
 
 var NodeHelper = require("node_helper");
 var request = require('request');
+var async = require('async');
 
 module.exports = NodeHelper.create({
 	// Subclass start method.
@@ -27,35 +28,40 @@ module.exports = NodeHelper.create({
 	destinationRequest: function(home,destinations,apikey) {
 		var self = this;
 		var destination_list = destinations.split(';');
-		console.log("desination_list");
-		var google_maps_api_dict = {};
-		console.log('Destination Request');
+		var dest_names = [];
+		var dest_addresses = [];
 		for (var dest in destination_list){
-			var dest_name = dest.split(':')[0];
+			dest_names.push(dest.split(':')[0]);
 			var dest_address = dest.split(':')[1];
-			google_maps_api_dict[dest_name] = "https://maps.googleapis.com/maps/api/distancematrix/json?origins="+escape(home)+"&destinations="+ escape(dest_address) + "&language=en-US&key=" + apikey);
+			dest_addresses.push("https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + escape(home) + "&destinations="+ escape(dest_address) + "&language=en-US&key=" + apikey);
 		}
-		console.log(google_maps_api_dict);
-		console.log("stuffed everything into destination_list");
-		var json_dict = {};
-		var finished_request = 0;
-		for (var key in google_maps_api_dict){
-			request
-			      .get(google_maps_api_dict[key])
-			      .on('response', function(response){
-					if(response.statusCode == 200){
-						console.log("Got response from Google API");
-						var result = JSON.parse(response.body);
-						console.log(result);
-						json_dict[key] = result;	
-						finished_request++;
-					}
-					finished_request++;
-				});
+		console.log(dest_names);
+		console.log(dest_addresses);
+		console.log("stuffed everything into dest_names and dest_addresses");
+		var fetch = function(url,cb){
+			request.get(url, function(err,response,body){
+				if ( err){
+					cb(err);
+				} else {
+					cb(null, body); // First param indicates error, null=> no error
+				}
+			});
 		}
-		console.log(json_dict);
-		//while(finished_request != google_maps_api_list.length){}
-		self.sendSocketNotification("DRIVE_TIME_DESTINATION_RESULT", json_list);
-		console.log("Sent Drive TimeSocket Notification");
+		async.map(dest_addresses, fetch, function(err, results){
+			if ( err){
+				// either file1, file2 or file3 has raised an error, so you should not use results and handle the error
+			} else {
+				var result_dict = {};
+				for (var i = 0; i < results.length; i++){
+					var curr_result = JSON.parse(results[i]);
+					result_dict[dest_names[i]] = curr_result;
+				}
+				self.sendSocketNotification("DRIVE_TIME_DESTINATION_RESULT", result_dict);
+				console.log("Sent Drive TimeSocket Notification");
+				// results[0] -> "file1" body
+				// results[1] -> "file2" body
+				// results[2] -> "file3" body
+			}
+		});
 	}
 });
