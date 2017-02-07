@@ -28,12 +28,15 @@ module.exports = NodeHelper.create({
 	destinationRequest: function(home,destinations,apikey) {
 		var self = this;
 		var destination_list = destinations.split(';');
+		console.log(destination_list);
 		var dest_names = [];
 		var dest_addresses = [];
-		for (var dest in destination_list){
-			dest_names.push(dest.split(':')[0]);
-			var dest_address = dest.split(':')[1];
-			dest_addresses.push("https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + escape(home) + "&destinations="+ escape(dest_address) + "&language=en-US&key=" + apikey);
+		for (var i=0; i < destination_list.length; i++){
+			if(destination_list[i] !== ""){
+				dest_names.push(destination_list[i].split(':')[0]);
+				var dest_address = destination_list[i].split(':')[1];
+				dest_addresses.push("https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + escape(home) + "&destinations="+ escape(dest_address) + "&language=en-US&key=" + apikey);
+			}
 		}
 		console.log(dest_names);
 		console.log(dest_addresses);
@@ -46,7 +49,7 @@ module.exports = NodeHelper.create({
 					cb(null, body); // First param indicates error, null=> no error
 				}
 			});
-		}
+		};
 		async.map(dest_addresses, fetch, function(err, results){
 			if ( err){
 				// either file1, file2 or file3 has raised an error, so you should not use results and handle the error

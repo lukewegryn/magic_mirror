@@ -6,14 +6,14 @@
 
 var config = {
 	port: 8080,
-	ipWhitelist: ["127.0.0.1","::ffff:127.0.0.1", "::1","::ffff:192.168.0.105"],
+	ipWhitelist: ["127.0.0.1","::ffff:127.0.0.1", "::1","::ffff:192.168.0.105","::ffff:192.168.0.108","::ffff:192.168.0.103"],
 	zoom: 1.4,
 	language: 'en',
 	timeFormat: 12,
 	units: 'imperial',
 
 	modules: [
-		    {
+		{
 			module: 'MMM-Remote-Control'
 			// uncomment the following line to show the URL of the remote control on the mirror
 			// , position: 'bottom_left'
@@ -92,6 +92,10 @@ var config = {
 				showSourceTitle: true,
 				showPublishDate: true
 			}
+		},
+		{
+			module: 'MMM-DriveTime',
+			position: 'middle_center',
 		},
 	]
 
