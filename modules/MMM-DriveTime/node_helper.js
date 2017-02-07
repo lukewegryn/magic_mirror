@@ -18,21 +18,44 @@ module.exports = NodeHelper.create({
 		console.log(this.name + " node helper received a socket notification: " + notification + " - Payload: " + payload);
 		var infoArray = payload.split("\n");
 		var home = infoArray[0];
-		var destination = infoArray[1];
+		var destinations = infoArray[1];
 		var apikey = infoArray[2];
-		this.destinationRequest(home,destination,apikey);
+		console.log("MMM-DriveTime about to call this.destinationRequest");
+		this.destinationRequest(home,destinations,apikey);
 	},
 
-	destinationRequest: function(home,desination,apikey) {
+	destinationRequest: function(home,destinations,apikey) {
 		var self = this;
-		var googleMapsApiURL = "https://maps.googleapis.com/maps/api/distancematrix/json?origins="+escape(home)+"&destinations="+ escape(desination)+ "&language=en-US&key=" + apikey;
-
-		request({ url: googleMapsApiURL, method: 'GET' }, function(error, response, body) {			
-			if(!error && response.statusCode == 200){
-				var result = JSON.parse(body);
-				self.sendSocketNotification("DRIVE_TIME_DESTINATION_RESULT", result);
-				console.log("sent Drive TimeSocket Notification");
-			}
-		});	
+		var destination_list = destinations.split(';');
+		console.log("desination_list");
+		var google_maps_api_dict = {};
+		console.log('Destination Request');
+		for (var dest in destination_list){
+			var dest_name = dest.split(':')[0];
+			var dest_address = dest.split(':')[1];
+			google_maps_api_dict[dest_name] = "https://maps.googleapis.com/maps/api/distancematrix/json?origins="+escape(home)+"&destinations="+ escape(dest_address) + "&language=en-US&key=" + apikey);
+		}
+		console.log(google_maps_api_dict);
+		console.log("stuffed everything into destination_list");
+		var json_dict = {};
+		var finished_request = 0;
+		for (var key in google_maps_api_dict){
+			request
+			      .get(google_maps_api_dict[key])
+			      .on('response', function(response){
+					if(response.statusCode == 200){
+						console.log("Got response from Google API");
+						var result = JSON.parse(response.body);
+						console.log(result);
+						json_dict[key] = result;	
+						finished_request++;
+					}
+					finished_request++;
+				});
+		}
+		console.log(json_dict);
+		//while(finished_request != google_maps_api_list.length){}
+		self.sendSocketNotification("DRIVE_TIME_DESTINATION_RESULT", json_list);
+		console.log("Sent Drive TimeSocket Notification");
 	}
 });

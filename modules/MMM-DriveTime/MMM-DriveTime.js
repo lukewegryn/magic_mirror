@@ -5,7 +5,7 @@ Module.register("MMM-DriveTime",{
 	result: [],
 	defaults: {
 		home: '1431 Lillington Drive, Raleigh, NC 27607',
-		destination: '4205 S Miami Blvd Durham NC 27703',
+		destinations: 'IBM:4205 S Miami Blvd Durham NC 27703;Cisco: 7025-2 Kit Creek Rd Durham NC 27709;',
 		apiKey: 'AIzaSyASXRGNndi7hRMOxiMrT1PdGbQ8NtLfydE',
 	},
 
@@ -14,10 +14,10 @@ Module.register("MMM-DriveTime",{
 		var self = this;
 
 		var home = this.config.home;
-		var destination = this.config.destination;
+		var destinations = this.config.destinations;
 		var apiKey = this.config.apiKey;
 
-		var payload = home + "\n" + destination + "\n" + apiKey;
+		var payload = home + "\n" + destinations + "\n" + apiKey;
 
 		//Do this once first
 		self.sendSocketNotification('BEGIN', payload);
@@ -32,8 +32,8 @@ Module.register("MMM-DriveTime",{
 	getDom: function() {
 		console.log("Updating MMM-DriveTime DOM.");
 		
-		var destination = "Cisco";
-		var driveTime = "10 minutes";
+		var destination = null;
+		var driveTime = null;
 
 		if(this.driveTime !== null && this.destination !== null){
 			driveTime = this.driveTime;
@@ -54,12 +54,13 @@ Module.register("MMM-DriveTime",{
 		console.log("MMM-Drive socket received from Node Helper");
 		if(notification === "DRIVE_TIME_DESTINATION_RESULT"){
 			var json = payload;
+			console.log("Payload back in MMM-DriveTime:");
 			console.log(payload);
 			//console.log(json.rows[0].elements[0].duration_in_traffic.text);
-			//this.driveTime = json.rows.elements.duration.text;
-			//this.destination = json.destination_addresses;
-			this.driveTime = "Drive Time";
-			this.destination = "Destination";
+			//this.driveTime = json.rows["0"].elements["0"].duration.text;
+			//console.log(this.driveTime);
+			//this.destination = json.destination_addresses["0"].split(",")[0];
+			//console.log(this.destination);
 			this.updateDom();
 		}
 	}
