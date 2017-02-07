@@ -54,12 +54,13 @@ module.exports = NodeHelper.create({
 			if ( err){
 				// either file1, file2 or file3 has raised an error, so you should not use results and handle the error
 			} else {
-				var result_dict = {};
+				var result_array = [];
 				for (var i = 0; i < results.length; i++){
 					var curr_result = JSON.parse(results[i]);
-					result_dict[dest_names[i]] = curr_result;
+					curr_result.name = dest_names[i];
+					result_array.push(curr_result);
 				}
-				self.sendSocketNotification("DRIVE_TIME_DESTINATION_RESULT", result_dict);
+				self.sendSocketNotification("DRIVE_TIME_DESTINATION_RESULT", result_array);
 				console.log("Sent Drive TimeSocket Notification");
 				// results[0] -> "file1" body
 				// results[1] -> "file2" body
