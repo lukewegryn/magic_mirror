@@ -35,15 +35,15 @@ Module.register("MMM-DriveTime",{
 		var wrapper = document.createElement("div");
 		wrapper.className = "bright small";
 		if(this.json !==null){	
-			var title = document.createElement("span");
-			title.className = "xsmall dimmed"
-			title.innerHTML = "DRIVE TIME";
+//			var title = document.createElement("span");
+//			title.className = "xsmall dimmed"
+//			title.innerHTML = "DRIVE TIME";
+//
+//			var line = document.createElement("hr");
+//			line.className = "dimmed"
 
-			var line = document.createElement("hr");
-			line.className = "dimmed"
-
-			wrapper.appendChild(title);
-			wrapper.appendChild(line);
+//			wrapper.appendChild(title);
+//			wrapper.appendChild(line);
 
 			var tableWrapper = document.createElement("table");
 			tableWrapper.className = "small";

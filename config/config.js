@@ -80,8 +80,23 @@ var config = {
 			}
 		},
 		{
+			module: 'MMM-Wunderlist',
+			position: 'top_left',  // This can be any of the regions. Best results in left or right regions.
+			header: 'Wunderlist', // This is optional
+			config: {
+			    // See 'Configuration options' for more information.
+				accessToken: '2e76c98ad4d373d1d262e6144768b3ec6bd585a0bc4245b5c025582833bb',
+				clientID: 'a2cefd62ba10e0344d42',
+				lists: ["Personal"],
+				interval: 30,
+				fade: true,
+				maximumEntries: 20,
+			}
+		},
+		{
             		module: 'twitControl',
             		position: 'bottom_bar',
+			header: 'TWITTER FEED',
 			config: {
 					maxNumTweets: 2,
 					streamType: 'followings',
@@ -110,6 +125,7 @@ var config = {
 		{
 			module: 'MMM-DriveTime',
 			position: 'top_right',
+			header: 'DRIVE TIME'
 		},
 	]
 
