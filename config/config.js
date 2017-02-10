@@ -80,6 +80,20 @@ var config = {
 			}
 		},
 		{
+            		module: 'twitControl',
+            		position: 'bottom_bar',
+			config: {
+					maxNumTweets: 2,
+					streamType: 'followings',
+					api_keys: {
+						consumer_key: '5YEtoelKcFNjrJ8YlX4KnCE8f',
+						consumer_secret: 'egA0Hxim5IyV2yLgO0emTb9h53lMCesyo3TeGJcvblN4pFMNgX',
+						access_token_key: '4913394432-2bM8fSGnaathU8llnBrxtWTASsq1hTX0DmqO4tj',
+						access_token_secret: '9xX94WQs4np9EBHwBbLWd9u0uwDgUgVwuVb9bqKVkPwkV'
+						}
+					}
+        	},
+	/*	{
 			module: 'newsfeed',
 			position: 'bottom_bar',
 			config: {
@@ -92,7 +106,7 @@ var config = {
 				showSourceTitle: true,
 				showPublishDate: true
 			}
-		},
+		},*/
 		{
 			module: 'MMM-DriveTime',
 			position: 'top_right',
