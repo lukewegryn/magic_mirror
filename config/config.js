@@ -88,7 +88,7 @@ var config = {
 				accessToken: '2e76c98ad4d373d1d262e6144768b3ec6bd585a0bc4245b5c025582833bb',
 				clientID: 'a2cefd62ba10e0344d42',
 				lists: ["Personal"],
-				interval: 30,
+				interval: 10,
 				fade: true,
 				maximumEntries: 20,
 			}
